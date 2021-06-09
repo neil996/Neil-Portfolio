@@ -8,7 +8,6 @@ Data Science Projects Portfolio
 
 * Regression Techniques Implemented:
 
-
 1.	XGBoost
 2.	Random Forest
 3.	Multiple Linear Regression
@@ -18,3 +17,14 @@ Data Science Projects Portfolio
 
 1.	KNN(K-Nearest Neighbor)
 2.	SVC(Support Vector Classification)
+
+# Data Pre-processing
+
+* To analyze the Null values in a more quantitative and generalized manner, we use different packages such as naniar which can give the number of missing values by plotting it and thus giving us a visualization to get more insights,fig. shows the implementation of naniar package
+
+  ![image](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/images/naniar.png)
+
+* VIM (Visualization and Imputation of Missing Values) package helps to visualize the missing data in a deep way and thus can help to apply specific mechanisms which can be helpful in analyzing the missing values and deciding whether to impute/replace or remove it, while Fig Shows the implementation of VIM package.
+
+
+  ![image](https://user-images.githubusercontent.com/78203289/120350915-4f6a2880-c2f7-11eb-9c7a-cfcab6a63ac6.png)
