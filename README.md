@@ -29,3 +29,24 @@ Data Science Projects Portfolio
 
 1.	KNN(K-Nearest Neighbor)
 2.	SVC(Support Vector Classification)
+
+# Neil_Portfolio
+Data Science Projects Portfolio
+
+
+# [Project 2:Time series analysis](https://github.com/neil996/Time_Series_Analysis)
+
+Analysis of different time series models on OverseasTrips and NewHouseRegistrations in Ireland
+
+# OverseasTrips Dataset
+
+* The Overseas Trips dataset is obtained from Central Statistics Office in Ireland and is a quarterly time series data indicating travel by non-residents to Ireland from Q1. 2012 to Q4, 2019.
+In this section, we will analyze the raw time series of the dataset which is also the required step in every time series modeling process. As the raw time series helps to identify the
+Trends or Seasonality patterns within the data, which we can take into consideration during the execution of the models.
+
+* Firstly the dataset extracted, is converted to a time series model using the function ts(), where the start and end is given along with the frequency and as this is a quarterly dataset, we given the frequency as 4. Moving on we plot the data using 
+the function plot for which the output obtained is shown below in Fig. 1. ,which shows that there is increasing trend in the data as we move along from 2012 to 2020 moreover the plot also
+indicates the presence of seasonality which although remains constant for most time but also show spikes as the years progresses.:
+
+ ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/Images/quarterly.PNG)
+ ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/Images/seasonal_decom.PNG)
