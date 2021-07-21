@@ -30,9 +30,6 @@ Data Science Projects Portfolio
 1.	KNN(K-Nearest Neighbor)
 2.	SVC(Support Vector Classification)
 
-# Neil_Portfolio
-Data Science Projects Portfolio
-
 
 # [Project 2:Time series analysis](https://github.com/neil996/Time_Series_Analysis)
 
