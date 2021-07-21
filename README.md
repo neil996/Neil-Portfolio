@@ -45,8 +45,8 @@ Trends or Seasonality patterns within the data, which we can take into considera
 the function plot for which the output obtained is shown below in Fig. 1. ,which shows that there is increasing trend in the data as we move along from 2012 to 2020 moreover the plot also
 indicates the presence of seasonality which although remains constant for most time but also show spikes as the years progresses.:
 
- ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/Images/quarterly.PNG)
- ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/Images/seasonal_decom.PNG)
+ ![image](/images/seasonal.png)
+ ![image](/images/coloured%20quarterly.png)
  
 # [Project 3:Analyzing Covid-19 Deaths in Patients with Different Conditions among Various Counties in the United States of America](https://github.com/neil996/Database-and-analsytics-programming)
 
@@ -61,14 +61,14 @@ Below is the abstract, detailing about the problem faced and how it will be tack
 
 * Scatter plot:
 
- ![image](https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/analysis.PNG)
+ ![image](images/analysis.PNG)
 
 * Pie chart showing patients with different conditions affected by covi-19
 
- ![image](https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/conditions.PNG)
+ ![image](/images/conditions.PNG)
 
 * Bar chart showing Probable vs. Confirmed cases
 
- ![image](https://github.com/neil996/Database-and-analsytics-programming/blob/main/images/probable.PNG)
+ ![image](/images/probable.PNG)
 
 
