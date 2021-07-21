@@ -9,7 +9,7 @@
 
 * To analyze the Null values in a more quantitative and generalized manner, we use different packages such as naniar which can give the number of missing values by plotting it and thus giving us a visualization to get more insights,fig. shows the implementation of naniar package
 
-  ![](https://github.com/neil996/Neil-Portfolio/blob/main/naniar.png)
+  ![image](https://github.com/neil996/Factors-affecting-Covid-19./blob/main/images/naniar.png)
 
 * VIM (Visualization and Imputation of Missing Values) package helps to visualize the missing data in a deep way and thus can help to apply specific mechanisms which can be helpful in analyzing the missing values and deciding whether to impute/replace or remove it, while Fig Shows the implementation of VIM package.
 
