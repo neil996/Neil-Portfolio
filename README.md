@@ -1,5 +1,4 @@
-# Neil_Portfolio
-Data Science Projects Portfolio
+# Data Science Projects Portfolio
 
 
 # [Project 1:Analyzing Covid-19 Deaths in Patients with Different Conditions among Various Counties in the United States of America](https://github.com/neil996/Factors-affecting-Covid-19.)
