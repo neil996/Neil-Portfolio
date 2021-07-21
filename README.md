@@ -46,7 +46,7 @@ the function plot for which the output obtained is shown below in Fig. 1. ,which
 indicates the presence of seasonality which although remains constant for most time but also show spikes as the years progresses.:
 
  ![image](/images/seasonal.png)
- ![image](/images/coloured%20quarterly.png)
+ ![image](/images/colouredquarterly.png)
  
 # [Project 3:Analyzing Covid-19 Deaths in Patients with Different Conditions among Various Counties in the United States of America](https://github.com/neil996/Database-and-analsytics-programming)
 
