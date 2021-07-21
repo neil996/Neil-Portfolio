@@ -48,7 +48,7 @@ indicates the presence of seasonality which although remains constant for most t
  ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/Images/quarterly.PNG)
  ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/Images/seasonal_decom.PNG)
  
- # [Project 3:Analyzing Covid-19 Deaths in Patients with Different Conditions among Various Counties in the United States of America](https://github.com/neil996/Database-and-analsytics-programming)
+ # [Project 3:Analyzing different Covid-19 Deaths in Patients with Different Conditions among Various Counties in the United States of America](https://github.com/neil996/Database-and-analsytics-programming)
 
 As a group project comprising of 2 team memebers, this repository presents the work done by me, moreover there are 2 Jupyter Notebooks uploaded, and it contains analysis performed on Coivd-19 using Pandas dataframes, numpy, regression techniques and No-SQL databases design. The datasets has been acquired from CDC though Socrata API, and retreived in python by using limit parameter. Please clcik on the highlighted link to move to the particular repository and get more insights.)
 
