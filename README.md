@@ -34,7 +34,7 @@ Data Science Projects Portfolio
 # [Project 2:Time series analysis](https://github.com/neil996/Time_Series_Analysis)
 
 Analysis of different time series models on OverseasTrips and NewHouseRegistrations in Ireland.
-Th project makes use of different time series analysis models such as ARIMA, nAIVE, Simple Exponential Model, etc. Below is a short description of data set and how it is analyzed for a time series model.
+Th project makes use of different time series analysis models such as ARIMA, Naive, Simple Exponential Model, etc. Below is a short description of data set and how it is analyzed for a time series model.
 
 # OverseasTrips Dataset
 
