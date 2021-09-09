@@ -99,12 +99,12 @@ making use of decompose() method and passing the time series object which disint
 attribute as shown in Fig. 15., indicating it as an additive time series mode for trend parameter while the seasonal variations observed indicate a Multiplicative time series approach, thus
 giving the final models as (M,Ad,M).
 
-![image](/images/decomposition.png)
+ ![image](/images/decomposition.png)
 
 Step 2: Detecting optimal gamma values: The initial model applied gave the value of gamma as 0.0001.To detect the optimal gamma value, we again make use of the sequence function which increments till 0.85 and
 checks the RMSE obtained at each gamma value so as to obtain the minimum gamma showing the minimum RMSE. Thus the minimum gamma value is 0.63 for which minimum RMSE is obtained 8.77.
 
-![image](/images/gamma.PNG)
+ ![image](/images/gamma.png)
 
 # SUMMARIZING TO IDENTIFY OPTIMAL MODEL
 
@@ -117,7 +117,7 @@ Checking the residuals can be achieved with the help of R command checkresiduals
 which no autocorrelation is observed as no spike is above the dotted line, while on the other hand in Simple seasoning model and Holt’s model ,the ACF plot shows high auto-correlation
 as the spikes are above the dotted lines.
 
-![image](/images/comparison.PNG)
+![image](/images/comparison.png)
 
 2.) Validating using AIC (Akaike Information Criteria):
 The AIC obtained from all the three different exponential smoothing models is as follows:
@@ -136,7 +136,7 @@ best fit model on the data.
 
 Before starting to implement the above models, we will plot the raw time series data to find out and analyze any trends or seasonality. Below graph in Fig. 20 shows increasing trend from 1978 to around 2005 or 2006 and then it starts decreasing and again seems to be increasing. Thus we can conclude from the analysis that we have trend in our raw time series data.
 
-![image](/images/raaw.PNG)
+![image](/images/raaw.png)
 
 # ARIMA Modelling:
 In the process of execution of ARIMA modelling technique[3], it is important to remove trend or seasonality from the time series data, and as in analysis f raw time series
@@ -145,7 +145,7 @@ data, only trend pattern is detected we will apply aim to remove trend pattern. 
 Step 1: Analyzing the data for patterns:
 The first step is to remove any trend or seasonality pattern from the time series dataset, as in ARIMA model any trend or seasonal pattern is not preferred. As the data had trend present, we use ndiffs() command to get the number of differencing required to make the data stationary.
 
-![image](/images/differenced.PNG)
+![image](/images/differenced.png)
 
 Step 2: Implementing Augmented Dickey Fuller test:
 To ensure that the data is stationary, we perform Augmented Dickey Fuller test, which on analyzing should give the p-value less than 0.5 thus confirming the null hypothesis, that the data is stationary.
@@ -154,7 +154,7 @@ Step 3: Examining the ACF and PACF Plots to identify models and values of p and 
 ACF(Autocorrelation function) and PACF(Partial autocorrelation function) helps to identify the type of ARIMA model which should be implemented.
 The ACF plot shows a single spike and then slowly decay as shown in Fig.23. , while the PACF plot does not show any spikes as shown in Fig. 23. Therefore we can confirm that this a Moving average model i.e. MA(1) model with p value observed as 0 and q value observed as 1.
 
-![image](/images/acf_pacf.PNG)
+![image](/images/acf_pacf.png)
 
 Step 4: Fitting the ARIMA model with values of p, d and q and also using auto ARIMA:
 The values to be put in our model are 0 for p, differencing is 1 and q as 1 which concludes to ARIMA(0,1,1). Therefore the equation to fir the model is arima(object,order=c(0,1,1)).
@@ -164,7 +164,7 @@ Now we make use of auto.arima(time series object, stepwise=FALSE) function to ge
 Step 5: Checking the residuals to ensure white noise observed:
 On plotting the residuals on QQ plot as shown in Fig. 24., we observe that for both the models i.e. ARIMA(0,1,1) and ARIMA(1,1,0) ,the residuals are normally distributed and moreover performing the checkresiduals(model$residual) test which is an automated version of Ljung Box test as shown in Fig. 25., we do not get the significant p-values for both the ARIMA models but the better value is obtained for ARIMA(1,1,0) model and thus we can conclude that the residuals are independently distributed thus showing the models have white noise.
 
-![image](/images/residuals.PNG)
+![image](/images/residuals.png)
 
 # Other Modelling Techniques are described in the respository
 
