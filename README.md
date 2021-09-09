@@ -1,5 +1,12 @@
-# Data Science Projects Portfolio
+# Hey, I am Neil 
 
+A data enthusiast with more than 4 Years of I.T. experience in statistical analysis, IT Service Management and QA automation.
+This Portfolio presents different Projects which I undertoo during my Post graduation in Data Analyst.
+
+# Contact Me @
+
+Email Address : neilsahay996@gmail.com
+[LinkedIn:](www.linkedin.com/in/neilsahay996)
 
 # [Project 1:Factors-affecting-Covid-19](https://github.com/neil996/Factors-affecting-Covid-19)
 
