@@ -61,7 +61,8 @@ This was a group project in which I had a team of 2 members and our task was tha
 
 As the scope of E-commerce is increasing day by day across different regions, we as Olist try to help our consumers which in this case are our sellers to help increase their business growth so that more and more sellers from different regions can be part of Olist eco-system which provides end to end demand and forecast handling in dealing with the customers. We have connected our Tableau directly with the database hosted on Azure SQL Server. The below figure shows Tableau direct connection with SQL Server, with database selected as BIBA_PROJECT and tables designated below the same.
 
- ![](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/tableau_sql.PNG)
+   ![](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/tableau_sql.PNG)
+ 
  
 ## Story Line for our Payments Segregation Dashboard
  
@@ -74,7 +75,7 @@ Below are the core modules and insights shown by our interactive dashboard.
 2. Approximately 78 % consumers opted credit card as the mode of payment, this gives us an interesting insight which can be used by our sellers to promote their products.
 3. In 2016 credit card payments accounted merely 0.25 %, but increased in 2017 by 30%, owing up to 34 % and in 2018 accounted for 45%.
 
-![](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/paymenttype.PNG)
+   ![](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/paymenttype.PNG)
 
 ### Opting Boleto as a payment type
 
@@ -85,7 +86,7 @@ Our dashboard below highlights some of the important aspects mentioned below:
 2. Around 43.69 % distinct payments came through boleto payment type, again second most after credit card.
 3. Payment type by year shows increasing trend ion usage of boleto as payment type, with stats as 0.06 % boleto usage in 2016, followed by approx... 10% in 2017 and finally 10.31% in 2018.
 
-![](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/boleto.PNG)
+   ![](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/boleto.PNG)
 
 ### Opting Debit Card as a payment type
 
@@ -93,7 +94,7 @@ Debit card is the least opted payment method opted by the consumers while buying
 1. Marginally 2% of consumers opted for Debit card as their payment method as can be concluded from the dashboard.
 2. While in 2016, debit card did not accounted for any transactions through Online payments via Olist , the figure marginally increased in the following year coming to 1.11%.
 
-![](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/debit.PNG)
+   ![](https://github.com/neil996/Business-Intelligence-and-Business-Analytics/blob/main/images/debit.PNG)
 
 # Customers Insights
 
