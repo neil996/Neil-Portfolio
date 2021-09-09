@@ -48,7 +48,7 @@ indicates the presence of seasonality which although remains constant for most t
  ![image](/images/seasonal.png)
  ![image](/images/colouredquarterly.png)
  
- # MODEL BUILDUP PHASE
+# MODEL BUILDUP PHASE
 
 * In the model construction phase, we apply 3 different types of time series model to access the overseas trips dataset using various strategies such as smoothing models which we made
 use on this dataset. The different time series methods opted are Simple Exponential Smoothing, Holt’s model and lastly Holt winter seasonal method. The advantage of using exponential is that weights are given to observations with
