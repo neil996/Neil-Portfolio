@@ -178,7 +178,7 @@ with ARIMA model. Comparing Naïve and Simple Moving Average gives the standard 
 Comparing the ARIMA model with Naïve model, the former gives an RMSE of 8521.719 while for ARIMA gives an RMSE of 7736.531, while for MAE Naïve model gives
 4681 while ARIMA again gives a lower value of 3863.819, thus showing that of all the three models observed ARIMA has scored better
 
- # [Project 3:Business-Intelligence-and-Business-Analytics](https://github.com/neil996/Business-Intelligence-and-Business-Analytics)
+# [Project 3:Business-Intelligence-and-Business-Analytics](https://github.com/neil996/Business-Intelligence-and-Business-Analytics)
  
 This was a group project in which I had a team of 2 members and our task was that we have been hired from Olist firm with intend to increase Sales and Profit Margins. We have to perform analysis on the current system, and we have to come up with the approach to implement full business intelligence suite which will give better Insights on the Customer and Sales. Olist is Start-up in Brazil in E commerce industry. The Main objective is to analyse the Gaps in the current System and give the low-cost scalable Business intelligence system.
 
