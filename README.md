@@ -6,7 +6,7 @@ This Portfolio presents different Projects which I undertoo during my Post gradu
 # Contact Me @
 
 Email Address : neilsahay996@gmail.com
-[LinkedIn:](www.linkedin.com/in/neilsahay996)
+[Neil Sahay LinkedIn](www.linkedin.com/in/neilsahay996)
 
 # [Project 1:Factors-affecting-Covid-19](https://github.com/neil996/Factors-affecting-Covid-19)
 
