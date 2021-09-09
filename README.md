@@ -60,9 +60,6 @@ This was a group project in which I had a team of 2 members and our task was tha
 # Tableau Powered Dashboards
 
 As the scope of E-commerce is increasing day by day across different regions, we as Olist try to help our consumers which in this case are our sellers to help increase their business growth so that more and more sellers from different regions can be part of Olist eco-system which provides end to end demand and forecast handling in dealing with the customers. We have connected our Tableau directly with the database hosted on Azure SQL Server. The below figure shows Tableau direct connection with SQL Server, with database selected as BIBA_PROJECT and tables designated below the same.
-
-   ![image](/images/tableau_sql.PNG)
- 
  
 ## Story Line for our Payments Segregation Dashboard
  
