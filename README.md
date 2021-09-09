@@ -166,34 +166,9 @@ On plotting the residuals on QQ plot as shown in Fig. 24., we observe that for b
 
 ![image](https://github.com/neil996/Time_Series_Analysis/blob/main/New_House_Images/residuals.PNG)
 
-# Naive Modelling:
-Naïve modelling technique assigns all the weight to the last observation and do not take into consideration the Trend and Seasonal patterns.
+# Other Modelling Techniques are described in the respository
 
-Step 1: The data is extracted from csv format and converted to a data frame, then consequently converting the extracted data to a time series model by assigning the start and end along with frequency which would be 1 as this is a annual
-time series data.
-
-Step 2: The raw time series on conversion is then plotted, which shows an increasing trend.
-
-Step 3: On extracting the data, we divide the data into training and test data respectively so as to better analyze the data.
-
-Step4: Once the data is sub-divided into training and test data,then the naïve model is applied specifying the forecast period as 3.
-
-Step 5: Forecasting and getting Accuracy: The forecasting is done using the R command forecast specifying the number of periods to forecast as 3, thus getting the Point Forecast values for term 2009 and beyond as 12676, while the High for 95% Confidence interval is 29378.26 for 2019, 36296for 2020 and 41605 for 2021.
-Moreover on executing the accuracy command, we are able to obtain the accuracy with RMSE obtained in training set as 8521 and test set RMSE as 10660.
-
-# Simple Moving Average Modelling:
-
-Simple Moving Average performs well when the time series shows trend. In simple moving average mode, the data is averaged and then moved by removing the first value and
-replacing it with new value and then again performing the average. The steps to pre-process the data and convert it into time series object will be same
-
-i: sma()function in smooth library helps to perform this modelling technique by taking into account the time series object, which in our case we will pass “train” sub-set which
-was obtained from Step3 ,and the number of forecasting i.e. “h” which will be 3.
-
-ii: Plotting the Model: In this step we will plot the model which will give us plots such as Actual vs. Fitted, showing that the predicted values are close to the regression line thus indicating the model has good performance. The Residuals vs. Fitted graph shows residuals fit well with the data and non-linearity is not observed. Lastly the QQ plot shows that the residuals are normally distributed across the QQ line, indicating that the data is normally distributed.
-
-iii: Forecasting and Observing Accuracy:
-In this step we forecast the model 3 series ahead, thus we get the Pint Forecast as 12676 from 2009 to 2011, while the high at 95 % CI is 30402 for 2009, 37745 for 2010 and
-4143379 for 2011. Thus showing that the model has performed well.
+* Please click on the link of Project to visit the repository.
 
 # SUMMARIZING TO IDENTIFY OPTIMAL MODEL
 
