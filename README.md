@@ -1,3 +1,6 @@
+# Hey, I am Neil
+
+A data enthusiast with more than 4 Years of I.T. experience in statistical analysis, IT Service Management and QA automation. This Portfolio presents different Projects which I undertook during my Post graduation in Data Analyst.
 # Contact Me @
 
 Email Address : neilsahay996@gmail.com
