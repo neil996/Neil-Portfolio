@@ -1,12 +1,4 @@
 theme: jekyll-theme-hacker
-title: Hey, I am Neil
-author:
-  name: Neil Sahay
-  email: neilsahay996@gmail.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  A data enthusiast with more than 4 Years of I.T. experience in statistical analysis, IT Service Management and QA automation. 
-  This Portfolio presents different Projects which I undertook during my Post graduation in Data Analyst.
 
-linkedin_username: www.linkedin.com/in/neilsahay996
 social_links:
     linkedin: www.linkedin.com/in/neilsahay996
